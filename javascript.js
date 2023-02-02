@@ -4,6 +4,11 @@ let page = params.get('page')
 console.log(page);
 
 
+link.addEventListener("click", (e) =>{
+    if(page === "page1"){
+        document.querySelector('homepage').style.display = "none"
+    }
+})
 // link.forEach((element, index) =>{
 // element.addEventListener("click", (e) =>{
 //     e.preventDefault();
