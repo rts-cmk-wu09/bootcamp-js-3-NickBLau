@@ -1,0 +1,5 @@
+<!-- URLSearchParams(document.location.search) -->
+    <!-- variable -->
+<a href="?page=page1">page1</a>
+
+?q=
